@@ -28,9 +28,8 @@
    <version>2.2</version>
    <configuration>
       <url>http://localhost:8081/manager/text</url>
-      <path>/myapp</path>
-      <server>${tomcat-server}</server>
-        <url>${tomcat-url}</url>
+      <path>/WebProject</path>
+   
           <!-- Set update to true to avoid exist war package can not be override error -->
     <!--   <update>true</update>  -->
       <!-- Because deploy this maven project using plugin in pom so use the manager-script role user. -->
