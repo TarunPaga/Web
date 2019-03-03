@@ -29,7 +29,7 @@
    <configuration>
       <url>http://localhost:8081/manager/text</url>
       <path>/WebProject</path>
-   
+    <!-- Set update to true to avoid exist war package can not be override error -->
           <!-- Set update to true to avoid exist war package can not be override error -->
     <!--   <update>true</update>  -->
       <!-- Because deploy this maven project using plugin in pom so use the manager-script role user. -->
